@@ -1,0 +1,11 @@
+.formSection{
+    width: 80%;
+    margin: 150px auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+   /* .serviceImg{
+    margin-left: 20px;
+   } */

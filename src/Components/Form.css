@@ -2,47 +2,58 @@
     width: 100%;
     height: 400px;
     /* background-color: blueviolet; */
-    padding: 5px;
-    /* padding: 20px; */
-    /* margin: 10px; */
+    padding: 5px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
 }
 .formDetails{
     margin-top: 50px;
-    margin-left: 50px;
+    /* margin-left: 20px; */
     width: 100%;
     height: 100%;
 }
 
 .connectBtn{
-    width: 100%;
+
     display: flex;
-    margin-left: 40px;
+    justify-content: center;
+    gap: 12px;
+  
     
 }
-.call{
-    margin-right: 20px;
-}
+
+
 .chat,.call{
     width:150px;
     height: 2rem;
     background-color: black;
     color: white;
-    border-radius: 2px;
-}
+    border-radius: 5px;
+    margin: 10px;
+
+   }
 
 .emailBtn{
-    width: 100%;
+    width: 350px;
+    margin-left: 5px;
+   
 }
 .email{
-    width: 90%;
+    width: 95%;
     height: 2rem;
-    margin: 10px 15px;
+    margin: 10px 10px;
     background-color: black;
     color: white;
+    border-radius: 5px;
 }
 
 #name,#email,#comment{
     margin: 10px;
+    margin-left: 13px;
     width: 90%;
     height: 30px;
     border-radius: 5px;
@@ -62,7 +73,7 @@
 
 .submitBtn{
     position: relative;
-    left: 310px;
+    left: 260px;
     background-color: black;
     color: white;
     border-radius: 5px;
